@@ -178,3 +178,11 @@ error: cannot lock ref 'refs/remotes/origin/main': is at 69c89aa7ed267b04e6375a1
 [deploy:test] done
 Webhook: refs/heads/main
 Skip
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+sudo: /var/www/test.myaibots.ru/deploy_test.sh: command not found
+sudo: /var/www/test.myaibots.ru/deploy_test.sh: command not found
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+sudo: /var/www/test.myaibots.ru/deploy_test.sh: command not found
+sudo: /var/www/test.myaibots.ru/deploy_test.sh: command not found
