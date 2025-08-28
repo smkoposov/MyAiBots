@@ -1,0 +1,180 @@
+Webhook: refs/heads/test
+Run: sudo -u myaibots /usr/bin/env bash /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T20:35:43+03:00 start
+From github.com:smkoposov/MyAiBots
+   16437fa..8b6d04b  test       -> origin/test
+Already on 'test'
+Your branch is behind 'origin/test' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 8b6d04b Update index.html
+[deploy:test] revision 8b6d04b
+[deploy:test] done
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T20:42:49+03:00 start
+From github.com:smkoposov/MyAiBots
+   8b6d04b..3f31b8a  test       -> origin/test
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 3f31b8a Update index.html
+[deploy:test] revision 3f31b8a
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T21:16:34+03:00 start
+From github.com:smkoposov/MyAiBots
+   3f31b8a..86ebb27  test       -> origin/test
+   8554fe5..15b73b5  main       -> origin/main
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 86ebb27 Update index.html
+[deploy:test] revision 86ebb27
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T22:03:27+03:00 start
+[deploy:test] 2025-08-26T22:03:27+03:00 start
+From github.com:smkoposov/MyAiBots
+   86ebb27..d71ce42  test       -> origin/test
+   15b73b5..af44dd0  main       -> origin/main
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at d71ce42 Update index.html
+error: cannot lock ref 'refs/remotes/origin/test': is at d71ce4216c1799e731e2f681043fdac4adbadec4 but expected 86ebb274e8e298059087dea06dfcb4ae68f04a66
+From github.com:smkoposov/MyAiBots
+ ! 86ebb27..d71ce42  test       -> origin/test  (unable to update local ref)
+error: cannot lock ref 'refs/remotes/origin/main': is at af44dd01ae83de712ec5240ab81da2d5ce18de77 but expected 15b73b5dd3a4f025f70dae04c8f859b959ee921a
+ ! 15b73b5..af44dd0  main       -> origin/main  (unable to update local ref)
+[deploy:test] revision d71ce42
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
+Webhook: refs/heads/main
+Skip
+[deploy:test] 2025-08-26T22:43:07+03:00 start
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T22:43:07+03:00 start
+From github.com:smkoposov/MyAiBots
+   d71ce42..8f8b685  test       -> origin/test
+   af44dd0..5e7ded2  main       -> origin/main
+error: cannot lock ref 'refs/remotes/origin/test': is at 8f8b6851f1fe3632e672e570dcff92a4649740f3 but expected d71ce4216c1799e731e2f681043fdac4adbadec4
+From github.com:smkoposov/MyAiBots
+ ! d71ce42..8f8b685  test       -> origin/test  (unable to update local ref)
+error: cannot lock ref 'refs/remotes/origin/main': is at 5e7ded2cdcb37d2b2821f4ac7446a9a1ecf405e3 but expected af44dd01ae83de712ec5240ab81da2d5ce18de77
+ ! af44dd0..5e7ded2  main       -> origin/main  (unable to update local ref)
+Already on 'test'
+M	public/index.html
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 8f8b685 Update index.html
+[deploy:test] revision 8f8b685
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
+[deploy:test] 2025-08-26T23:04:36+03:00 start
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T23:04:36+03:00 start
+From github.com:smkoposov/MyAiBots
+   8f8b685..dfdade6  test       -> origin/test
+   5e7ded2..7c1d846  main       -> origin/main
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at dfdade6 Update index.html
+error: cannot lock ref 'refs/remotes/origin/test': is at dfdade6743f1597efca444901c8fbc2f927ca606 but expected 8f8b6851f1fe3632e672e570dcff92a4649740f3
+From github.com:smkoposov/MyAiBots
+ ! 8f8b685..dfdade6  test       -> origin/test  (unable to update local ref)
+error: cannot lock ref 'refs/remotes/origin/main': is at 7c1d846d96faed5bd043d23ae828f017bce9eb6b but expected 5e7ded2cdcb37d2b2821f4ac7446a9a1ecf405e3
+ ! 5e7ded2..7c1d846  main       -> origin/main  (unable to update local ref)
+[deploy:test] revision dfdade6
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
+[deploy:test] 2025-08-26T23:11:43+03:00 start
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T23:11:43+03:00 start
+From github.com:smkoposov/MyAiBots
+   dfdade6..46ae997  test       -> origin/test
+   7c1d846..47f56d8  main       -> origin/main
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 46ae997 Add files via upload
+[deploy:test] revision 46ae997
+[deploy:test] done
+error: cannot lock ref 'refs/remotes/origin/test': is at 46ae9976b45bab398e2d232ccab575d3f0a7f5b4 but expected dfdade6743f1597efca444901c8fbc2f927ca606
+From github.com:smkoposov/MyAiBots
+ ! dfdade6..46ae997  test       -> origin/test  (unable to update local ref)
+error: cannot lock ref 'refs/remotes/origin/main': is at 47f56d898e0489455d1ecf987dbb2f3052997841 but expected 7c1d846d96faed5bd043d23ae828f017bce9eb6b
+ ! 7c1d846..47f56d8  main       -> origin/main  (unable to update local ref)
+[deploy:test] 2025-08-26T23:12:26+03:00 start
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-26T23:12:26+03:00 start
+From github.com:smkoposov/MyAiBots
+   46ae997..2376679  test       -> origin/test
+Already on 'test'
+Your branch is behind 'origin/test' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 2376679 Add files via upload
+[deploy:test] revision 2376679
+[deploy:test] done
+error: cannot lock ref 'refs/remotes/origin/test': is at 237667930724a3fd18818b3bb6472202c58649e2 but expected 46ae9976b45bab398e2d232ccab575d3f0a7f5b4
+From github.com:smkoposov/MyAiBots
+ ! 46ae997..2376679  test       -> origin/test  (unable to update local ref)
+Webhook: refs/heads/main
+Skip
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-27T11:28:11+03:00 start
+[deploy:test] 2025-08-27T11:28:11+03:00 start
+From github.com:smkoposov/MyAiBots
+   47f56d8..9b93f96  main       -> origin/main
+Already on 'test'
+Your branch is up to date with 'origin/test'.
+HEAD is now at cb3d3ed Тестовый коммит: deploy marker
+[deploy:test] revision cb3d3ed
+[deploy:test] done
+error: cannot lock ref 'refs/remotes/origin/main': is at 9b93f965486d78782babb9080f0583297a789997 but expected 47f56d898e0489455d1ecf987dbb2f3052997841
+From github.com:smkoposov/MyAiBots
+ ! 47f56d8..9b93f96  main       -> origin/main  (unable to update local ref)
+Webhook: refs/heads/main
+Skip
+Webhook: refs/heads/fix/remove-deploy-marker-test
+Skip
+[deploy:test] 2025-08-27T15:09:55+03:00 start
+Webhook: refs/heads/test
+Run: sudo -u myaibots /var/www/test.myaibots.ru/deploy_test.sh >> /var/www/test.myaibots.ru/public/deploy_test.log 2>&1 &
+[deploy:test] 2025-08-27T15:09:55+03:00 start
+From github.com:smkoposov/MyAiBots
+   cb3d3ed..782e514  test       -> origin/test
+ * [new branch]      fix/remove-deploy-marker-test -> origin/fix/remove-deploy-marker-test
+   9b93f96..69c89aa  main       -> origin/main
+Already on 'test'
+Your branch is behind 'origin/test' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 782e514 Merge pull request #12 from smkoposov/fix/remove-deploy-marker-test
+error: cannot lock ref 'refs/remotes/origin/test': is at 782e514284504ab2d492fec813cdc75d56a8c79e but expected cb3d3ed9d6c2b68e5b1b6cd58d60feb87446c43d
+From github.com:smkoposov/MyAiBots
+ ! cb3d3ed..782e514  test       -> origin/test  (unable to update local ref)
+ * [new branch]      fix/remove-deploy-marker-test -> origin/fix/remove-deploy-marker-test
+error: cannot lock ref 'refs/remotes/origin/main': is at 69c89aa7ed267b04e6375a1dbc9218f11eb18d15 but expected 9b93f965486d78782babb9080f0583297a789997
+ ! 9b93f96..69c89aa  main       -> origin/main  (unable to update local ref)
+[deploy:test] revision 782e514
+[deploy:test] done
+Webhook: refs/heads/main
+Skip
